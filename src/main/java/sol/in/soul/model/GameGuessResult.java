@@ -8,4 +8,8 @@ public class GameGuessResult {
     private int rightNumbers;
     private int numbersOnRightPlaces;
     private int tryNumber;
+
+    public void increaseTryNumber() {
+        this.tryNumber++;
+    }
 }
